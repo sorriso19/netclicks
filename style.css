@@ -28,12 +28,17 @@ body {
     
 }
 
+.header-logo a {
+    text-decoration: none;
+}
+
 .header-logo h1 {
     margin: 0;
     font-family: Inter, sans-serif;
     font-size: 24px;
     font-weight: 700;
     line-height: 29px;
+    
 }
 
 .header-logo p {
@@ -413,9 +418,16 @@ body {
 }
 
 @media (max-width: 480px) {
+    .content {
+        gap:50px;
+    }
+
     .content-cards__item {
         width: 100%;
         min-width: 100%;
+   }
+   .content-sidebar {
+        gap: 15px;
    }
 }
 
